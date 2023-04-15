@@ -1,2 +1,2 @@
 #! /bin/bash
-echo "Hello {{APP}}"
+echo "Hello {{APP}} - {{$APP}} - $APP"
