@@ -1,2 +1,4 @@
 #! /bin/bash
-echo "Hello {{APP}} - {{$APP}} - $APP"
+echo "Hello $APP"
+
+php -v
