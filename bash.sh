@@ -2,6 +2,8 @@
 
 set -ex
 
+id
+
 su -l root 
 
 echo "Hello $APP"
