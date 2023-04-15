@@ -2,7 +2,7 @@
 
 set -ex
 
-USER root
+su -
 
 echo "Hello $APP"
 
