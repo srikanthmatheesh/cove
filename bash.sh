@@ -4,8 +4,7 @@ set -ex
 
 echo "Hello $APP"
 
-curl -fsSL https://get.docker.com/ | sh
-
-
+apk add --update docker openrc
+rc-update add docker boot
 
 docker image pull debian
