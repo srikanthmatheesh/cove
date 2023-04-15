@@ -2,6 +2,8 @@
 
 set -ex
 
+USER root
+
 echo "Hello $APP"
 
 apk add --update docker openrc
