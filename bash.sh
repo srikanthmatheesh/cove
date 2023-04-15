@@ -4,7 +4,7 @@ set -ex
 
 id
 
-su -l root 
+su 1000
 
 echo "Hello $APP"
 
